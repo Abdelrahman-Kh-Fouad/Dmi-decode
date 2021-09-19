@@ -8,7 +8,8 @@ class DNIParser :
     def GetNumberOfSpaces(self):
         '''
         Get number of spaces in one intend for parsing.
-        :return:intger -- number of spaces.
+        Return:
+            intger -- number of spaces.
         '''
         for line in self.fileAsLines:
             if len(line) - len(line.lstrip())!=0:
@@ -18,8 +19,10 @@ class DNIParser :
     def GetNumberOfIntend(self , line:str):
         '''
         Get number of intend in a line.
-        :param line:string -- line we want search.
-        :return:intger -- number of intends
+        Param:
+            line:string -- line we want search.
+        Return:
+            intger -- number of intends
         '''
         return (len(line)-len(line.lstrip())) / self.numberOfSpacesInIntend
 
@@ -27,8 +30,9 @@ class DNIParser :
     def Parse(self , lineNumber:int , state:int ):
         """parsing file line by line
 
-        :param lineNumber:Intger -- number of line we in in file.\n
-        :param state: Intger -- our state --> noOp : 0 , sectionName : 1 , readKeyValue :2  , readList:3.\n
+        Param:
+            lineNumber:Intger -- number of line we in in file.\n
+            state: Intger -- our state --> noOp : 0 , sectionName : 1 , readKeyValue :2  , readList:3.\n
         """
         if lineNumber == len(self.fileAsLines):
             return
