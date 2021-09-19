@@ -1,0 +1,6 @@
+BIOS Information
+        Vendor: LENOVO
+        Characteristics:
+                PCI is supported
+                BIOS is upgradeable
+        BIOS Revision: 1.40

@@ -1,0 +1,313 @@
+BIOS Information
+	Vendor: Dell Inc.
+	Version: 1.9.0
+	Release Date: 07/04/2019
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 16 MB
+	Characteristics:
+		PCI is supported
+		PNP is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		Print screen service is supported (int 5h)
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		ACPI is supported
+		USB legacy is supported
+		Smart battery is supported
+		BIOS boot specification is supported
+		Function key-initiated network boot is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 1.9
+System Information
+	Manufacturer: Dell Inc.
+	Product Name: Inspiron 3576
+	Version: Not Specified
+	Serial Number: H39HCL2
+	UUID: 4c4c4544-0033-3910-8048-c8c04f434c32
+	Wake-up Type: Power Switch
+	SKU Number: 083F
+	Family: Inspiron
+Base Board Information
+	Manufacturer: Dell Inc.
+	Product Name: 0J11DH
+	Version: A00
+	Serial Number: /H39HCL2/CNWSC0085Q008Z/
+	Asset Tag: Not Specified
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+Chassis Information
+	Manufacturer: Dell Inc.
+	Type: Notebook
+	Lock: Not Present
+	Version: Not Specified
+	Serial Number: H39HCL2
+	Asset Tag: Not Specified
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: Notebook
+Port Connector Information
+	Internal Reference Designator: J1G6 - AC JACK
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: Other
+System Slot Information
+	Designation: J8B4
+	Type: x1 PCI Express
+	Current Usage: In Use
+	Length: Short
+	ID: 4
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		PME signal is supported
+	Bus Address: 0000:00:1c.6
+On Board Device Information
+	Type: Video
+	Status: Enabled
+	Description: "Intel HD Graphics"
+OEM Strings
+	String 1: Dell System
+	String 2: 1[083F]
+	String 3: 3[1.0]
+	String 4: 12[www.dell.com]
+	String 5: 14[1]
+	String 6: 15[0]
+	String 7: 27[37202624246]
+System Configuration Options
+	Option 1: Default string
+System Event Log
+	Area Length: 4 bytes
+	Header Start Offset: 0x0000
+	Header Length: 2 bytes
+	Data Start Offset: 0x0002
+	Access Method: Indexed I/O, one 16-bit index port, one 8-bit data port
+	Access Address: Index 0x046A, Data 0x046C
+	Status: Invalid, Not Full
+	Change Token: 0x00000000
+	Header Format: No Header
+	Supported Log Type Descriptors: 6
+	Descriptor 1: End of log
+	Data Format 1: OEM-specific
+	Descriptor 2: End of log
+	Data Format 2: OEM-specific
+	Descriptor 3: End of log
+	Data Format 3: OEM-specific
+	Descriptor 4: End of log
+	Data Format 4: OEM-specific
+	Descriptor 5: End of log
+	Data Format 5: OEM-specific
+	Descriptor 6: End of log
+	Data Format 6: OEM-specific
+Built-in Pointing Device
+	Type: Touch Pad
+	Interface: Bus Mouse
+	Buttons: 2
+Handle 0x0028, DMI type 25, 9 bytes
+	System Power Control:System Power Controls
+	Next Scheduled Power-on: *-* 00:00:00
+System Boot Information
+	Status: No errors detected
+Management Device
+	Description: LM78-1
+	Type: LM78
+	Address: 0x00000000
+	Address Type: I/O Port
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+Onboard Device
+	Reference Designation:  Onboard 1394
+	Type: Other
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:03:1c.2
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+Memory Device
+	Array Handle: 0x003D
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8192 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM B
+	Bank Locator: BANK 2
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2133 MT/s
+	Manufacturer: 80CE000080CE
+	Serial Number: 9843DDC3
+	Asset Tag: 02161200
+	Part Number: M471A1G43DB0-CPB
+	Rank: 2
+	Configured Memory Speed: 2133 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Array Handle: 0x003D
+	Partition Width: 2
+Cache Information
+	Socket Designation: L3 Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 8192 kB
+	Maximum Size: 8192 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+Processor Information
+	Socket Designation: U3E1
+	Type: Central Processor
+	Family: Core i7
+	Manufacturer: Intel(R) Corporation
+	ID: EA 06 08 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 142, Stepping 10
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+	Voltage: 1.1 V
+	External Clock: 100 MHz
+	Max Speed: 2000 MHz
+	Current Speed: 1800 MHz
+	Status: Populated, Enabled
+	Upgrade: Socket BGA1356
+	L1 Cache Handle: 0x0041
+	L2 Cache Handle: 0x0042
+	L3 Cache Handle: 0x0043
+	Serial Number: To Be Filled By O.E.M.
+	Asset Tag: To Be Filled By O.E.M.
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 8
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+	:
+	Handle 0x0045, DMI type 20, 35 byte:Handle 0x0045, DMI type 20, 35 bytes
+	Memory Device Mapped Addres:
+		Starting Address: 0x00200000000
+		Ending Address: 0x003FFFFFFFF
+		Range Size: 8 GB
+		Physical Device Handle: 0x003F
+		Memory Array Mapped Address Handle: 0x0040
+		Partition Row Position: 1
+		Interleave Position: 2
+		Interleaved Data Depth: 1
+	Handle 0x0046, DMI type 20, 35 byte:Handle 0x0046, DMI type 20, 35 bytes
+	Handle 0x0300, DMI type 126, 22 byte:Handle 0x0300, DMI type 126, 22 bytes
+	Inactiv:Inactive
+	Handle 0x1600, DMI type 22, 26 byte:Handle 0x1600, DMI type 22, 26 bytes
+	Portable Batter:
+		Location: Sys. Battery Bay
+		Manufacturer: SMP
+		Manufacture Date: 03/05/2018
+		Serial Number: 0600
+		Name: DELL GR43747
+		Design Capacity: 41440 mWh
+		Design Voltage: 14800 mV
+		SBDS Version: 1.0
+		Maximum Error: 2%
+		SBDS Chemistry: LION
+		OEM-specific Information: 0x00000801
+	Handle 0x1B00, DMI type 27, 15 byte:Handle 0x1B00, DMI type 27, 15 bytes
+	Cooling Devic:
+		Temperature Probe Handle: 0x1C00
+		Type: Chip Fan
+		Status: OK
+		OEM-specific Information: 0x0000DD00
+		Nominal Speed: 6000 rpm
+		Description: CPU Fan
+	Handle 0x1C00, DMI type 28, 22 byte:Handle 0x1C00, DMI type 28, 22 bytes
+	Temperature Prob:
+		Description: Other Probe
+		Location: Processor
+		Status: OK
+		Maximum Value: 127.0 deg C
+		Minimum Value: -127.0 deg C
+		Resolution: 1.000 deg C
+		Tolerance: Unknown
+		Accuracy: Unknown
+		OEM-specific Information: 0x0000DC03
+		Nominal Value: 10.0 deg C
+	Handle 0x1C01, DMI type 28, 22 byte:Handle 0x1C01, DMI type 28, 22 bytes
+	Handle 0x1C02, DMI type 28, 22 byte:Handle 0x1C02, DMI type 28, 22 bytes
+	Handle 0x1C03, DMI type 28, 22 byte:Handle 0x1C03, DMI type 28, 22 bytes
+	Handle 0xB100, DMI type 177, 12 byte:Handle 0xB100, DMI type 177, 12 bytes
+	OEM-specific Typ:
+		
+		Handle 0xB200, DMI type 178, 88 bytes
+
